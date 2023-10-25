@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Lato:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+body{
+    font-family: 'Lato', sans-serif;
+    background: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Grand Hotel', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* banner start */
+.banner-section{
+    background: url(/image/background1.png);
+    padding: 50px 0 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 44px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 0 22px;
+}
+
+.menu-button{
+    display: none;
+}
+
+.banner-content{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.banner-content h1{
+    font-size: 250px;
+    color: #fff;
+}
+
+.banner-content p{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.banner-content a{
+    color: #e8565e;
+    background: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+/* end */
+
+/* popular section start */
+.popular-section{
+    background: url(/image/Background2.png);
+    padding: 80px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-title{
+    text-align: center;
+    width:80% ;
+    margin-bottom: 80px;
+    margin: 0 auto;
+}
+
+.section-title h2{
+    color: #e8565e;
+    font-size: 125px;
+}
+.section-title p{
+    font-size: 30px;
+    color: #333;
+}
+
+.popular-item{
+    text-align: center;
+}
+
+.popular-item h3{
+    font-size: 67px;
+    color: #e8565e;
+}
+
+.popular-item p{
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+}
+/* popular section end */
+
+
+/* statistic start */
+.statistic-section{
+    background: url(/image/background3.png);
+    padding: 80px 0;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.statistic-section::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background:#e8565e;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    mix-blend-mode: multiply;
+}
+
+.statistic-section .section-title h2{
+    color: #fff;
+}
+
+.statistic-section .section-title p{
+    color: #fff;
+}
+
+.statistic-content{
+    border:  2px dashed #fff ;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.statistic-content div{
+    text-align: center;
+}
+.statistic-content div b{
+    display: block;
+    color: #fff;
+    font-size: 67px;
+}
+.statistic-content div span{
+    display: block;
+    color: #fff;
+    font-size: 50px;
+}
+
+/* statistic end */
+
+
+/* menu section start */
+.menu-area{
+    background-color:#ede5cb ;
+    padding: 80px;
+}
+
+.menu-items{
+    margin-bottom: 25px;
+}
+
+.menu-items h5{
+    color: #ed4d55;
+    font-size: 50px;
+}
+
+.menu-items p{
+    color: #3d3d3d;
+    font-size: 16px;
+}
+
+
+/* menu section end */
+
+
+.pasta-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.left-side2{
+    width: 60%;
+    position: relative;
+}
+
+
+
+.right-side2 {
+    text-align: center;
+    padding-right: 30px;
+    width: 80%;
+}
+
+.right-side2 p {
+        font-size:30px;
+        margin-bottom: 15px;
+} 
+
+.right-side2 .para {
+    width: 400px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.right-side2 h1{
+    font-size: 100px;
+        color: #e8565e;
+}
+.btn{
+    background-color: #ed4d55;
+    border-radius: 20px;
+    padding: 7px 15px;
+    color: #fff;
+}
+/* end */
+/* start */
+.card-section{
+    background: url(/image/Background4.png);
+    padding: 80px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-img-top {
+    max-width: 80px; 
+    max-height: 80px; 
+    width: auto;
+    height: auto;
+}
+
+.card-body h5{
+   font-size: 30px;
+   color: #e8565e;
+}
+/* end */
+
+.chef-section {
+    text-align: center;
+}
+.image {
+    display: block;
+    margin: 0 auto;
+}
+
+.chef-section h1{
+    color: #e8565e;
+    font-size: 86px;
+
+}
+.paragraph {
+    text-align: center;
+    font-size: 50px;
+    color: #3d3d3d;
+    margin: 40px 0;
+}
+
+.chef-section{
+    background: url(/image/Background5.png);
+    padding: 80px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* ---- */
+
+.subscribe-section{
+    text-align: center;
+    margin: 0;
+}
+.subscribe-section h1{
+    color: #e8565e;
+    font-size: 90px;
+}
+
+.subscribe-section p{
+    font-size: 20px;
+}
+
+.footer{
+    background-color: #fbf5f5;
+    color: #3d3d3d;
+    text-align: center;
+    padding: 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+#search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 30%;
+}
+
+#search-button {
+    background-color: #e8565e;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px; 
+    width: 15%;
+}
+
+#search-button {
+    align-self: center;
+}
+/*  */
+.footerContent {
+    background-color: black;
+    color: white;
+    padding: 80px 0px 90px 0px;
+}
+
+.footerContent div:first-child p {
+    width: 70%;
+}
+
+.footerWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.footerContent div:last-child li {
+    display: flex;
+    align-items: center;
+}
+
+.footerContent div:last-child li a i {
+    color: rgb(234, 231, 231);
+    margin-right: 10px;
+}
+
+.footerWrapper > div {
+    flex: 1;
+    margin: 0 7px;
+}
+
+.footer-bars li a{
+    text-decoration: none;
+    color: #fff;
+}
