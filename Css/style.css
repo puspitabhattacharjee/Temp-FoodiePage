@@ -30,7 +30,7 @@ ul{
 
 /* banner start */
 .banner-section{
-    background: url(/image/background1.png);
+    background: url(../image/background1.png);
     padding: 50px 0 100px;
     background-repeat: no-repeat;
     background-position: center;
