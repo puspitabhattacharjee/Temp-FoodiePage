@@ -87,7 +87,7 @@ ul{
 
 /* popular section start */
 .popular-section{
-    background: url(/image/Background2.png);
+    background: url(../image/Background2.png);
     padding: 80px 0;
     background-repeat: no-repeat;
     background-position: center;
@@ -129,7 +129,7 @@ ul{
 
 /* statistic start */
 .statistic-section{
-    background: url(/image/background3.png);
+    background: url(../image/background3.png);
     padding: 80px 0;
     background-repeat: no-repeat;
     position: relative;
@@ -173,7 +173,7 @@ ul{
 }
 .statistic-content div b{
     display: block;
-    color: #fff;
+    color: #b5f604;
     font-size: 67px;
 }
 .statistic-content div span{
@@ -254,7 +254,7 @@ ul{
 /* end */
 /* start */
 .card-section{
-    background: url(/image/Background4.png);
+    background: url(../image/Background4.png);
     padding: 80px 0;
     background-repeat: no-repeat;
     background-position: center;
@@ -295,7 +295,7 @@ ul{
 }
 
 .chef-section{
-    background: url(/image/Background5.png);
+    background: url(../image/Background5.png);
     padding: 80px 0;
     background-repeat: no-repeat;
     background-position: center;
